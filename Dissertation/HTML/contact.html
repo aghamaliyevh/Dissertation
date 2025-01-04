@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notbuk kataloqu saytı</title>
+    <link rel="stylesheet" href="/Dissertation/CSS/index.css">
+    <link rel="stylesheet" href="/Dissertation/CSS/fontfamily.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="left">
+                <h1>Notbuk kataloqu saytı</h1>
+            </div>
+            <div id="right">
+                <a href="/Dissertation/HTML/index.html">Əsas səhifə</a>
+                <a href="/Dissertation/HTML/products.html">Məhsullarımız</a>
+                <a href="/Dissertation/HTML/contact.html">Bizimlə əlaqə</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contactPart">
+            <div class="contact">
+                <h2>Sifariş anketi</h2>
+                <form id="orderForm">
+                    <label>Adınız</label>
+                    <input type="text" name="name" id="name" required>
+                    <label>Soyadınız</label>
+                    <input type="text" name="surname" id="surname" required>
+                    <label>E-poçt</label>
+                    <input type="email" name="email" id="email" required>
+                    <label>Sifarişin adı</label>
+                    <textarea name="orderName" id="orderName" required></textarea>
+                    <button id="submit" type="submit">Göndər</button>
+                    <p id="feedback"></p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="/Dissertation/JS/contact.js"></script>
+</body>
+</html>
